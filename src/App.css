@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:flex-start;
+  min-height: 100vh;
+  background-color: #232323;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.bg{
+  height: 100%;
+  width: 1440px;
+  background-image: url("./Images/BG\ 1.png");
+  background-repeat: repeat-y;
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Grifter Bold'; 
+  src: url('../public/fonts/grifterbold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SolidenTrial'; 
+  src:url('../public/fonts/SolidenTrial-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }

@@ -1,0 +1,14 @@
+
+.container{
+    width: 1440px;
+    padding: 50px 50px 20px;
+    z-index: 1;
+}
+
+.menu_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}

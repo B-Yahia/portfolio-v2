@@ -1,0 +1,63 @@
+.footer_container{
+    width: 1440px;
+    padding: 20px 50px 5px;
+    z-index: 1;
+}
+.footer_logo{
+    scale: 0.5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer_logo > div {
+    width: 380px;
+    border: 1px solid #FE8900;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_msg{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'SolidenTrial';
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.footer_msg > span {
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.footer_navigation , .footer_media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.footer_navigation > ul{
+    width: 500px;
+    color: white;
+    font-family: 'SolidenTrial';
+    font-size: small;
+}
+.footer_navigation li {
+    font-size: 15px;
+}
+.footer_media > div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_copy_rights_msg{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+}

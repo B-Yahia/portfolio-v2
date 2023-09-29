@@ -1,0 +1,39 @@
+.NavigationMenu_container{
+    width: 620px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #FE8900;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+.NavigationMenu_container:hover{
+    border: none;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ul li {
+    height: auto;
+    padding: 15px 20px ;
+    border-radius: 50px;
+    font-size:18px ;
+    transition: background-color 0.5s;
+    font-family: 'SolidenTrial';
+    text-transform:uppercase
+}
+
+li:hover{
+    background-color: #FE8900;
+    border:none;
+}
+
+ul:hover{
+    border:none;
+}

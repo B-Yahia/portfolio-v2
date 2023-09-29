@@ -1,0 +1,103 @@
+.home_container{
+    width: 1440px;
+    min-height: 600px;
+    padding: 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.text_container p {
+    color: white;
+    font-size: 160px;
+    font-weight: bolder;
+    font-family: 'Grifter Bold';
+    letter-spacing: 15px;
+    
+}
+.text_name{
+    margin-left: auto;
+}
+.vertical_text1 , .vertical_text2{
+    position: absolute;
+}
+.vertical_text1{
+    bottom: -185px;
+    right: 0%;
+}
+.vertical_text2 {
+    bottom: -370px;
+    right: 0%;
+}
+.hero_section{
+    width: 100%;
+    min-height: 70px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.stack{
+    min-height: 300px;
+    width: 45%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.img_section{
+    min-width: 45%;
+    min-height: 300px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.square{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #FE8900;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.square > div{
+    height: 370px;
+    width: 370px;
+    background-color: #FE8900;
+}
+
+.img_section > img {
+    position: absolute;
+    bottom: 0px;
+    right: -193px;
+    width: 900px;
+    height: auto;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+
+
+
