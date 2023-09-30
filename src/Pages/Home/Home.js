@@ -14,8 +14,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="home_container">
-      <div className="home_background"></div>
+    <div className="body_container">
       <div className="text_container">
         <p>My</p>
         <p>name</p>
@@ -32,15 +31,9 @@ function Home() {
           <img src={Me} />
         </div>
         <div className="stack">
-          {visibleIndex === 0 && (
-            <StackTitle title="Backend" className="glass" />
-          )}
-          {visibleIndex === 1 && (
-            <StackTitle title="Frontend" className="glass" />
-          )}
-          {visibleIndex === 2 && (
-            <StackTitle title="FullStack" className="glass" />
-          )}
+          {visibleIndex === 0 && <StackTitle title="Backend" />}
+          {visibleIndex === 1 && <StackTitle title="Frontend" />}
+          {visibleIndex === 2 && <StackTitle title="FullStack" />}
         </div>
       </div>
     </div>
