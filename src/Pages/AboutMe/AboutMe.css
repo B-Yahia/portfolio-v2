@@ -1,0 +1,160 @@
+.about_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.about_container > h1{
+    font-size: 132px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Grifter Bold';
+    color: white;
+}
+.about_container > p{
+    font-size: 20px;
+    font-family: "SolidenTrial";
+    color: white;
+    padding-bottom: 10px;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+.ma{
+   background-color: #C1272D; 
+   color: #006233;
+   font-weight: 900;
+}
+.skillz_experiences_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.skillz_experiences_container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.skillz_experiences_container_titles {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: 'Grifter Bold';
+    color: white;
+
+}
+
+.stacks_container{
+    width: 100%;
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+
+}
+.stacks_container_front , .stacks_container_back{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    position: absolute;
+    
+    
+}
+.stacks_container_front div{
+    animation: StackCicle 14s 0s infinite; 
+}
+.stacks_container_back div{
+    animation: StackCicle 14s 7s infinite; 
+
+}
+.stacks_container_front div , .stacks_container_back div{
+    width: 40%;
+    aspect-ratio: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.stacks_container_front p ,.stacks_container_back p{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.1;
+    position: absolute;
+   
+}
+
+.stack_svg {
+    color: white;
+    height: 60%;
+}
+
+.experiences_container{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+@keyframes StackCicle {
+    0%{
+    scale: 1;
+        opacity: 0.1;
+    }
+
+    10%{
+        opacity: 0.4;
+    }
+    
+    20%{
+        opacity: 0.8;
+    }
+    
+    30%{
+        opacity: 1;
+    }
+    
+    40%{
+        opacity: 1;
+    }
+
+    45%{
+        opacity: 0.3;
+        scale: 1;
+    }
+    50%{
+        opacity: 0;
+        display: none;
+        scale: 0;
+    }
+    
+    100%{
+        opacity: 0;
+        display: none;
+        scale: 0;
+    }
+    
+    
+}

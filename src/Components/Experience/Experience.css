@@ -1,0 +1,31 @@
+.experience_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+
+}
+
+.experience_container_position{
+    background-color: #FE8900;
+    padding: 20px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-family:'SolidenTrial','Courier New', Courier, monospace ;
+    font-weight: 600;
+}
+
+.experience_container_company{
+    color: white;
+    font-size: 16px;
+    font-family:'SolidenTrial','Courier New', Courier, monospace ;
+    font-weight: 400;
+}
+
+.experience_container_duration{
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: small ;
+    color: white;
+}

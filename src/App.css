@@ -47,6 +47,11 @@ h6 > p {
     text-align: center;
 
 }
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
 @font-face {
   font-family: 'Grifter Bold'; 
   src: url('../public/fonts/grifterbold.otf') format('opentype');
