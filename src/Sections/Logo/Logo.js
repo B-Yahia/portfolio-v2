@@ -6,7 +6,7 @@ function Logo() {
   return (
     <div className="logo-container">
       <div className="logo_p1_bg">
-        <p className="logo_p1">The FullStack</p>
+        <p className="logo_p1">The FullStaack</p>
       </div>
       <div className="logo_p2_bg">
         <p className="logo_p2">Guy</p>

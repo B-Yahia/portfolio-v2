@@ -8,10 +8,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-around;
   min-height: 100vh;
   background-color: #232323;
   position: relative;
+  padding: 20px 100px 0px;
+
 }
 .bg{
   height: 100%;
@@ -26,7 +28,7 @@
   z-index: 0;
 }
 .body_container{
-  width: 1440px;
+  width: 1300px;
   min-height: 600px;
   padding: 20px 50px 20px;
   display: flex;

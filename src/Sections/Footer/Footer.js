@@ -63,7 +63,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer_copy_rights_msg">
-        © 2023 The Fullstack Guy. All Rights Reserved. Last Updated: September
+        © 2023 The Fullstack Guy. All Rights Reserved. Last Updated: October
         2023.
       </div>
     </div>

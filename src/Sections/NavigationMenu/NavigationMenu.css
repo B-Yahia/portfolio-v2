@@ -1,6 +1,6 @@
 .NavigationMenu_container{
     width: 620px;
-    height: 70px;
+    height: 60px;
     padding: 10px;
     border: 1px solid #FE8900;
     display: flex;
@@ -8,7 +8,7 @@
     border-radius: 50px;
 }
 .NavigationMenu_container:hover{
-    border: none;
+    /* border: none; */
 }
 ul {
     list-style-type: none;
@@ -21,9 +21,9 @@ ul {
   }
 ul li {
     height: auto;
-    padding: 15px 20px ;
+    padding: 10px 20px ;
     border-radius: 50px;
-    font-size:18px ;
+    font-size:16px ;
     transition: background-color 0.5s;
     font-family: 'SolidenTrial';
     text-transform:uppercase
