@@ -80,9 +80,11 @@ span{
 }
 .stacks_container_front div{
     animation: StackCicle 14s 0s infinite; 
+    animation-delay: 0s;
 }
 .stacks_container_back div{
-    animation: StackCicle 14s 7s infinite; 
+    animation: StackCicle 14s 0s infinite; 
+    animation-delay: 7s;
 
 }
 .stacks_container_front div , .stacks_container_back div{
@@ -92,6 +94,7 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
+    opacity: 0;
 }
 .stacks_container_front p ,.stacks_container_back p{
     height: 100%;
@@ -120,7 +123,7 @@ span{
 
 @keyframes StackCicle {
     0%{
-    scale: 1;
+        scale: 1;
         opacity: 0.1;
     }
 
@@ -146,13 +149,11 @@ span{
     }
     50%{
         opacity: 0;
-        display: none;
         scale: 0;
     }
     
     100%{
         opacity: 0;
-        display: none;
         scale: 0;
     }
     
