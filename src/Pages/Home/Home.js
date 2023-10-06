@@ -16,19 +16,17 @@ function Home() {
   return (
     <div className="body_container">
       <div className="text_container">
-        <p>My</p>
-        <p>name</p>
-        <p>is</p>
-        <p className="text_name">Yahia</p>
-        <p className="vertical_text1">and</p>
-        <p className="vertical_text2">i am</p>
+        <p>I</p>
+        <p>am</p>
+        <span>Yahia</span>
+        <p className="text_name">and im</p>
       </div>
       <div className="hero_section">
         <div className="img_section">
           <div className="square">
             <div></div>
           </div>
-          <img src={Me} />
+          <img src={Me} alt="my picture" />
         </div>
         <div className="stack">
           {visibleIndex === 0 && <StackTitle title="Backend" />}

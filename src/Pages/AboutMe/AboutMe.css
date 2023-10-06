@@ -74,9 +74,7 @@ span{
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 5px;
-    position: absolute;
-    
-    
+    position: absolute;    
 }
 .stacks_container_front div{
     animation: StackCicle 14s 0s infinite; 

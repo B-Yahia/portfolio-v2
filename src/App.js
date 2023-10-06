@@ -6,6 +6,8 @@ import AboutMe from "./Pages/AboutMe/AboutMe";
 import Contact from "./Pages/Contact/Contact";
 import Projects from "./Pages/Projects/Projects";
 import Footer from "./Sections/Footer/Footer";
+import WordsCounter from "./Projects/WordsCounter/WordsCounter";
+import ColorGuess from "./Projects/ColorGuess/ColorGuess";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/word_counter" element={<WordsCounter />} />
+        <Route path="/color_guess" element={<ColorGuess />} />
       </Routes>
       <Footer />
     </div>

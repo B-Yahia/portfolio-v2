@@ -1,0 +1,43 @@
+
+.project_word_counter{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.project_word_counter > textarea{
+    width: 60%;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.project_word_counter > div {
+    width:38% ;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-family: 'SolidenTrial';
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.project_word_counter span {
+    background-color: #FE8900;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 55px;
+    font-weight: 600;
+    font-size: 16px;
+
+}

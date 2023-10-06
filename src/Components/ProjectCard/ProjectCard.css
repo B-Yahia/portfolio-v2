@@ -1,0 +1,36 @@
+.project_card_container{
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FE8900;
+    border-radius: 20px;
+    position: relative;
+}
+.project_card_container > img {
+    height: 250px;
+    width: auto;
+    border: 1px solid white;
+    z-index: 2;
+    border-radius: 20px;
+}
+.project_card_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    opacity: 0.1;
+    border-radius: 20px;
+    top: 0px;
+}
+.project_title{
+    color: white;
+    font-size: 24px;
+    font-family: 'SolidenTrial';
+    font-weight: 700;
+    line-height: 27.02px;
+    padding-top: 20px;
+}
+

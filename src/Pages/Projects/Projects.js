@@ -1,12 +1,23 @@
 import React from "react";
 import "../../App.css";
+import "./Projects.css";
+import ProjectCard from "../../Components/ProjectCard/ProjectCard";
+import projectsData from "../../Data/ProjectsList";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <div className="body_container">
-      <h6>
-        <p>This page is underconstraction , It is coming soon</p>
-      </h6>
+      <div className="projects_container">
+        <h1>Projects</h1>
+        <div className="projects_cards_container">
+          {projectsData.map((project) => (
+            <Link key={project.id} to={project.link}>
+              <ProjectCard img={project.img} title={project.title} />
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
