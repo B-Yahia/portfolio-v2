@@ -10,8 +10,8 @@
 .projects_container > h1{
     font-size: 132px;
     letter-spacing: 2px;
-    font-weight: bolder;
-    font-family: 'Grifter Bold';
+    font-weight: 700;
+    font-family: var(--font-1);
     color: white;
 }
 

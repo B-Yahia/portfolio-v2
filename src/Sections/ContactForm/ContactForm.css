@@ -5,7 +5,7 @@
     border-radius:48px;
     padding: 40px;
     color: white;
-    font-family: 'SolidenTrial';
+    font-family: var(--font-2);
     text-transform:uppercase;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 
 .contact_form_container_msg p,.contact_form_container_name p ,.contact_form_container_phone  p {
@@ -31,6 +32,7 @@ input {
     padding: 10px 20px;
     border-radius:5px ;
     font-size: medium;
+    border: none;
 }
 .contact_form_container_msg {
     display: flex;
@@ -46,6 +48,7 @@ input {
     border-radius:5px ;
     font-size: medium;
     color: black;
+    border: none;
 }
 
 .contact_form_container button {
@@ -54,7 +57,7 @@ input {
     font-family: 'SolidenTrial';
     text-transform:uppercase;
     font-size: large;
-    background:#FE8900; 
+    background:var(--secondary-color); 
     color: white;
     border: none;
     border-radius:50px ;

@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #FE8900;
+    border: 1px solid var(--secondary-color);
     border-radius: 20px;
     position: relative;
 }
@@ -28,7 +28,7 @@
 .project_title{
     color: white;
     font-size: 24px;
-    font-family: 'SolidenTrial';
+    font-family: var(--font-2);
     font-weight: 700;
     line-height: 27.02px;
     padding-top: 20px;

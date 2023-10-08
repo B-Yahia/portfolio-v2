@@ -8,19 +8,19 @@
 }
 
 .experience_container_position{
-    background-color: #FE8900;
+    background-color: var(--secondary-color);
     padding: 20px 20px;
     border-radius: 50px;
     color: white;
     font-size: 18px;
-    font-family:'SolidenTrial','Courier New', Courier, monospace ;
+    font-family:var(--font-2),'Courier New', Courier, monospace ;
     font-weight: 600;
 }
 
 .experience_container_company{
     color: white;
     font-size: 16px;
-    font-family:'SolidenTrial','Courier New', Courier, monospace ;
+    font-family:var(--font-2),'Courier New', Courier, monospace ;
     font-weight: 400;
 }
 

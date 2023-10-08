@@ -25,14 +25,14 @@
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    font-family: 'SolidenTrial';
+    font-family: var(--font-2);
     font-weight: 600;
     font-size: 16px;
 
 }
 
 .project_word_counter span {
-    background-color: #FE8900;
+    background-color: var(--secondary-color);
     color: white;
     padding: 5px;
     margin-left: 20px;

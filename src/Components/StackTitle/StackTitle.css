@@ -8,7 +8,7 @@
 .circle{
     height: 70px;
     width: 70px;
-    border:1px solid #FE8900;
+    border:1px solid var(--secondary-color);
     border-radius: 50%;
     margin-left: 50px;
     display: flex;
@@ -20,7 +20,7 @@
     color: white;
     font-size: 90px;
     font-weight: bolder;
-    font-family: 'SolidenTrial';
+    font-family: var(--font-2);
     animation: textOP 4s infinite;
 }
 
@@ -36,7 +36,7 @@
     }
     30%, 70% {
         border: none;
-      background-color: #FE8900; 
+      background-color: var(--secondary-color); 
     }
 }
 

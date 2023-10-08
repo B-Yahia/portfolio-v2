@@ -9,7 +9,7 @@
     padding-right: 5px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'Grifter Bold';
+    font-family: var(--font-1);
 }
 .logo_p2{
     font-size: 25px;
@@ -17,5 +17,5 @@
     padding-left: 5px;
     letter-spacing: 1px;
     font-family: 'SolidenTrial';
-    color: #FE8900;
+    color: var(--secondary-color);
 }

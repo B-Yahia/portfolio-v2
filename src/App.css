@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
 .App{
   display: flex;
   flex-direction: column;
@@ -17,7 +11,7 @@
 }
 .bg{
   height: 100%;
-  width: 1440px;
+  width: 1400px;
   background-image: url("./Images/BG\ 1.png");
   background-repeat: repeat-y;
   opacity: 0.15;
@@ -27,8 +21,10 @@
   transform: translateX(-50%);
   z-index: 0;
 }
+
+/* reusebale css class */
 .body_container{
-  width: 1300px;
+  width: 1400px;
   min-height: 600px;
   padding: 20px 50px 20px;
   display: flex;
@@ -45,7 +41,7 @@ h6{
 h6 > p {
   font-size: 100px;
     font-weight: bolder;
-    font-family: 'Grifter Bold';
+    font-family: var(--font-1);
     color: white;
     text-align: center;
 
@@ -65,18 +61,7 @@ textarea:focus, input:focus{
 .project_title > p{
   font-size: 62px;
   color: white;
-  font-family: 'Grifter Bold';
+  font-family: var(--font-1);
 }
 
-@font-face {
-  font-family: 'Grifter Bold'; 
-  src: url('../public/fonts/grifterbold.otf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SolidenTrial'; 
-  src:url('../public/fonts/SolidenTrial-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
+

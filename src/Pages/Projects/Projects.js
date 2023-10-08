@@ -12,7 +12,11 @@ function Projects() {
         <h1>Projects</h1>
         <div className="projects_cards_container">
           {projectsData.map((project) => (
-            <Link key={project.id} to={project.link}>
+            <Link
+              key={project.id}
+              to={project.link}
+              style={{ color: "inherit", textDecoration: "inherit" }}
+            >
               <ProjectCard img={project.img} title={project.title} />
             </Link>
           ))}

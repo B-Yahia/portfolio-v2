@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+code {
+  font-family: 'SolidenTrial',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: #232323;
+  --secondary-color: #FE8900;
+  --font-1:'Grifter Bold';
+  --font-2:'SolidenTrial';   
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+@font-face {
+  font-family: 'Grifter Bold'; 
+  src: url('../public/fonts/grifterbold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SolidenTrial'; 
+  src:url('../public/fonts/SolidenTrial-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }

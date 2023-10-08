@@ -18,8 +18,8 @@ function Home() {
       <div className="text_container">
         <p>I</p>
         <p>am</p>
-        <span>Yahia</span>
-        <p className="text_name">and im</p>
+        <span className="text_container_name">Yahia</span>
+        <p className="secondary_text">and im</p>
       </div>
       <div className="hero_section">
         <div className="img_section">
