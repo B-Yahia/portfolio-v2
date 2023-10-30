@@ -12,17 +12,19 @@ import ColorGuess from "./Projects/ColorGuess/ColorGuess";
 function App() {
   return (
     <div className="App">
-      <div className="bg"></div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/word_counter" element={<WordsCounter />} />
-        <Route path="/color_guess" element={<ColorGuess />} />
-      </Routes>
-      <Footer />
+      <div className="app_container">
+        <div className="bg"></div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/word_counter" element={<WordsCounter />} />
+          <Route path="/color_guess" element={<ColorGuess />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }
