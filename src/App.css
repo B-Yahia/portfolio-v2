@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  min-height: 100%;
+  min-height: 100vh;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
@@ -36,15 +36,10 @@
 /* reusebale css class */
 .body_container{
   width: 1400px;
-  min-height: 800px;
-  height: max-content;
   padding: 20px 50px 20px;
   display: flex;
   flex-direction: column;
   z-index: 1;
-  overflow-y: auto;
-  height: fit-content;
-  
 }
 h6{
   height: 100%;
