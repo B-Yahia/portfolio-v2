@@ -1,5 +1,7 @@
 import wordCounterImg from "../Images/wordcounter-screenshot.png";
 import colorGuessImg from "../Images/colorguess-screenshot.png";
+import AudioRecorderImg from "../Images/Audio recorder.png";
+import AudioPlayerImg from "../Images/Audio player.png";
 
 const projectsData = [
   {
@@ -13,6 +15,18 @@ const projectsData = [
     title: "Color guess app",
     img: colorGuessImg,
     link: "/color_guess",
+  },
+  {
+    id: 3,
+    title: "Audio Recorder",
+    img: AudioRecorderImg,
+    link: "/audio_record",
+  },
+  {
+    id: 4,
+    title: "Music Player",
+    img: AudioPlayerImg,
+    link: "/music_player",
   },
 ];
 

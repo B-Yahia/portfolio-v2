@@ -51,16 +51,4 @@ input {
     border: none;
 }
 
-.contact_form_container button {
-    height: 50px;
-    width: 150px;
-    font-family: 'SolidenTrial';
-    text-transform:uppercase;
-    font-size: large;
-    background:var(--secondary-color); 
-    color: white;
-    border: none;
-    border-radius:50px ;
-    opacity: 0.9;
-}
 

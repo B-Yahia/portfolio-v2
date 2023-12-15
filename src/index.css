@@ -13,14 +13,15 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
 @font-face {
   font-family: 'Grifter Bold'; 
   src: url('../public/fonts/grifterbold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'SolidenTrial'; 
   src:url('../public/fonts/SolidenTrial-Regular.otf') format('opentype');

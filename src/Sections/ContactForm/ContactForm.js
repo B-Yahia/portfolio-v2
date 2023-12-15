@@ -80,7 +80,9 @@ function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
-      <button onClick={fetchData}>Send</button>
+      <button className="btn" onClick={fetchData}>
+        Send
+      </button>
     </div>
   );
 }

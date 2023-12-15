@@ -29,8 +29,6 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 0;
-  
-
 }
 
 /* reusebale css class */
@@ -39,6 +37,7 @@
   padding: 20px 50px 20px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   z-index: 1;
 }
 h6{
@@ -72,6 +71,18 @@ textarea:focus, input:focus{
   font-size: 62px;
   color: white;
   font-family: var(--font-1);
+}
+.btn{
+  height: 45px;
+    width: 140px;
+    font-family: 'SolidenTrial';
+    text-transform:uppercase;
+    font-size: large;
+    background:var(--secondary-color); 
+    color: white;
+    border: none;
+    border-radius:50px ;
+    opacity: 0.9;
 }
 
 @media (min-width: 1440px) {

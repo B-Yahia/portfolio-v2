@@ -8,6 +8,8 @@ import Projects from "./Pages/Projects/Projects";
 import Footer from "./Sections/Footer/Footer";
 import WordsCounter from "./Projects/WordsCounter/WordsCounter";
 import ColorGuess from "./Projects/ColorGuess/ColorGuess";
+import AudioRecorder from "./Projects/AudioRecorder/AudioRecorder";
+import MusicPlayer from "./Projects/AudioRecorder/MusicPlayer";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/word_counter" element={<WordsCounter />} />
           <Route path="/color_guess" element={<ColorGuess />} />
+          <Route path="/audio_record" element={<AudioRecorder />} />
+          <Route path="/music_player" element={<MusicPlayer />} />
         </Routes>
         <Footer />
       </div>
