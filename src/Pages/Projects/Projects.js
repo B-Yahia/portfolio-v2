@@ -3,22 +3,15 @@ import "../../App.css";
 import "./Projects.css";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import projectsData from "../../Data/ProjectsList";
-import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <div className="body_container">
       <div className="projects_container">
-        <h1>Projects</h1>
+        <h1>Projects </h1>
         <div className="projects_cards_container">
           {projectsData.map((project) => (
-            <Link
-              key={project.id}
-              to={project.link}
-              style={{ color: "inherit", textDecoration: "inherit" }}
-            >
-              <ProjectCard img={project.img} title={project.title} />
-            </Link>
+            <ProjectCard info={project} key={project.id} />
           ))}
         </div>
       </div>

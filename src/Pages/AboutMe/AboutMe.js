@@ -1,8 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
 import "../../App.css";
-import Experience from "../../Components/Experience/Experience";
-import ExperiencesData from "../../Data/ExpreiencesList";
 
 function AboutMe() {
   return (
@@ -41,7 +39,7 @@ function AboutMe() {
         </p>
         <div className="skillz_experiences_container">
           <div>
-            <p className="skillz_experiences_container_titles">Stacks</p>
+            <p className="page_section_title">Stacks</p>
             <div className="stacks_container">
               <div className="stacks_container_front">
                 <div>
@@ -68,9 +66,9 @@ function AboutMe() {
                     <g
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                     >
                       <path d="m20 4l-2 14.5l-6 2l-6-2L4 4z" />
                       <path d="M7.5 8h3v8l-2-1m8-7H14a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.423a.5.5 0 0 1 .495.57L15.5 15.5l-2 .5" />
@@ -87,9 +85,9 @@ function AboutMe() {
                     <g
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                     >
                       <path d="m20 4l-2 14.5l-6 2l-6-2L4 4z" />
                       <path d="M8.5 8h7L11 12h4l-.5 3.5l-2.5.75l-2.5-.75l-.1-.5" />
@@ -216,19 +214,6 @@ function AboutMe() {
                   </svg>
                 </div>
               </div>
-            </div>
-          </div>
-          <div>
-            <p className="skillz_experiences_container_titles">Experinces</p>
-            <div className="experiences_container">
-              {ExperiencesData.map((data) => (
-                <Experience
-                  company={data.company}
-                  position={data.position}
-                  duration={data.duration}
-                  key={data.id}
-                />
-              ))}
             </div>
           </div>
         </div>

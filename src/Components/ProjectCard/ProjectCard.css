@@ -1,36 +1,82 @@
-.project_card_container{
-    height: 350px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid var(--secondary-color);
-    border-radius: 20px;
-    position: relative;
-}
-.project_card_container > img {
-    height: 250px;
-    width: auto;
-    border: 1px solid white;
-    z-index: 2;
-    border-radius: 20px;
-}
-.project_card_bg{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: white;
-    opacity: 0.1;
-    border-radius: 20px;
-    top: 0px;
-}
-.project_title{
-    color: white;
-    font-size: 24px;
-    font-family: var(--font-2);
-    font-weight: 700;
-    line-height: 27.02px;
-    padding-top: 20px;
+.project_card_container {
+  height: auto;
+  width: 70%;
+  min-width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: relative;
+  gap: 15px;
 }
 
+/* .project_card_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  opacity: 0.1;
+  border-radius: 20px;
+  top: 0px;
+} */
+.project_title {
+  color: var(--secondary-color);
+  font-size: 24px;
+  font-family: var(--font-2);
+  font-weight: 700;
+  line-height: 27.02px;
+  padding-top: 20px;
+}
+.project_stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.project_stack_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 35px;
+  width: auto;
+  font-family: var(--font-2);
+  border-radius: 50px;
+}
+.project_stack_label > p {
+  margin: 5px 15px;
+  font-size: large;
+}
+.project_desc {
+  font-family: var(--font-2);
+  font-size: medium;
+  font-weight: 700;
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.project_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.project_links > a {
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+}
+.project_links_img {
+  height: 40px;
+  width: auto;
+  margin: 2px 5px;
+}

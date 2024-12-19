@@ -1,32 +1,75 @@
-import wordCounterImg from "../Images/wordcounter-screenshot.png";
-import colorGuessImg from "../Images/colorguess-screenshot.png";
-import AudioRecorderImg from "../Images/Audio recorder.png";
-import AudioPlayerImg from "../Images/Audio player.png";
-
 const projectsData = [
   {
     id: 1,
-    title: "Words counter app",
-    img: wordCounterImg,
-    link: "/word_counter",
+    title: "Ecommerce",
+    url: "https://e-com-test.netlify.app/",
+    git: "https://github.com/B-Yahia/ecom-backend",
+    stack: [
+      "PHP",
+      "GraphQL",
+      "ReactJS",
+      "CSS",
+      "HTML",
+      "Composer",
+      "MySQL",
+      "Linux",
+      "Ubuntu",
+    ],
+    description:
+      "Ecommerce platefome built using ReactJS for the user interface and PHP for the backend and for the communication protocot it GraphQL that was used",
   },
   {
     id: 2,
-    title: "Color guess app",
-    img: colorGuessImg,
-    link: "/color_guess",
+    title: "Task App",
+    url: "http://task.thefullstackguy.com/",
+    git: "https://github.com/B-Yahia/Laravel-Todo",
+    stack: [
+      "Laravel",
+      "PHP",
+      "CSS",
+      "HTML",
+      "Composer",
+      "MySQL",
+      "Linux",
+      "Ubuntu",
+    ],
+    description: "",
   },
   {
     id: 3,
-    title: "Audio Recorder",
-    img: AudioRecorderImg,
-    link: "/audio_record",
+    title: "Expense tracker",
+    url: "https://tracker.thefullstackguy.com/",
+    git: "https://github.com/B-Yahia/PHP-MVC-Expense-Tracker",
+    stack: [
+      "PHP",
+      "MVC",
+      "CSS",
+      "HTML",
+      "Composer",
+      "MySQL",
+      "Linux",
+      "Ubuntu",
+    ],
+    description:
+      "A PHP app built using MVC approach that allow the user to keep track of expenses .to try it you can signup or use this credentials => Username: admin@email.com Password: password",
   },
   {
     id: 4,
-    title: "Music Player",
-    img: AudioPlayerImg,
-    link: "/music_player",
+    title: "Blog (MVC approach)",
+    url: "https://blog.thefullstackguy.com/",
+    git: "https://github.com/B-Yahia/PHP-MVC-Blog",
+    stack: [
+      "PHP",
+      "MVC",
+      "CSS",
+      "HTML",
+      "Composer",
+      "MySQL",
+      "Linux",
+      "Ubuntu",
+    ],
+    description:
+      "Blog app ,built using MVC approach .to try it you can signup or use this credentials => Username: admin1 Password: password",
   },
 ];
 

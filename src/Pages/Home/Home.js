@@ -3,6 +3,8 @@ import "../../App.css";
 import "./Home.css";
 import StackTitle from "../../Components/StackTitle/StackTitle";
 import Me from "../../Images/me-bg.png";
+import Stack from "../../Components/Stack/Stack.js";
+import Experiences from "../../Components/Experience/Experiences.js";
 
 function Home() {
   const [visibleIndex, setVisibleIndex] = useState(0);
@@ -26,7 +28,7 @@ function Home() {
           <div className="square">
             <div></div>
           </div>
-          <img src={Me} alt="my picture" />
+          <img src={Me} alt="my pic" />
         </div>
         <div className="stack">
           {visibleIndex === 0 && <StackTitle title="Backend" />}
@@ -34,6 +36,10 @@ function Home() {
           {visibleIndex === 2 && <StackTitle title="FullStack" />}
         </div>
       </div>
+      <div>
+        <Stack />
+      </div>
+      <Experiences />
     </div>
   );
 }

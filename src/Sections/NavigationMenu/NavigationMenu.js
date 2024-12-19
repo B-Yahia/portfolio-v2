@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function NavigationMenu() {
   return (
-    <div className="NavigationMenu_container">
+    <div className="navigation_menu_container">
       <ul>
         <li>
           <Link
@@ -15,14 +15,14 @@ function NavigationMenu() {
             Home
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to={"/about"}
             style={{ color: "inherit", textDecoration: "inherit" }}
           >
             About Me
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             to={"/projects"}

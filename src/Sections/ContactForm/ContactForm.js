@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 import "../../App.css";
-import axios from "axios";
+// import axios from "axios";
 
 function ContactForm() {
   const [firstName, setFirstName] = useState("");
@@ -12,18 +12,18 @@ function ContactForm() {
 
   const fetchData = async (e) => {
     e.preventDefault();
-    const msgObject = {
-      name: firstName + " " + lastName,
-      email: email,
-      phoneNumber: phone,
-      msg: message,
-      seen: false,
-    };
+    // const msgObject = {
+    //   name: firstName + " " + lastName,
+    //   email: email,
+    //   phoneNumber: phone,
+    //   msg: message,
+    //   seen: false,
+    // };
     try {
-      const response = await axios.post(
-        "https://quizsurveyapp-production.up.railway.app/msg",
-        msgObject
-      );
+      // const response = await axios.post(
+      //   "https://quizsurveyapp-production.up.railway.app/msg",
+      //   msgObject
+      // );
       setLastName("");
       setFirstName("");
       setEmail("");
