@@ -7,7 +7,7 @@
   margin-top: 20px;
   user-select: none;
   white-space: nowrap;
-  animation: scroll 30s linear infinite;
+  animation: scroll 10s linear infinite;
 }
 .stack_images_container {
   display: flex;
@@ -46,6 +46,6 @@
     transform: translateX(30%);
   }
   100% {
-    transform: translateX(-20%);
+    transform: translateX(-20.5%);
   }
 }

@@ -1,8 +1,6 @@
 import javascript from "../Images/StackSvg/javascript.svg";
 import css from "../Images/StackSvg/css.svg";
 import html from "../Images/StackSvg/html.svg";
-import java from "../Images/StackSvg/java.svg";
-import springboot from "../Images/StackSvg/springboot.svg";
 import php from "../Images/StackSvg/php.svg";
 import laravel from "../Images/StackSvg/laravel.svg";
 import mysql from "../Images/StackSvg/mysql.svg";
@@ -12,8 +10,6 @@ import ubuntu from "../Images/StackSvg/ubuntu-wordmark.svg";
 import linux from "../Images/StackSvg/linux.svg";
 import git from "../Images/StackSvg/github-box.svg";
 import reactImg from "../Images/StackSvg/react.svg";
-import reactrouterImg from "../Images/StackSvg/react-router.svg";
-import mui from "../Images/StackSvg/material-ui.svg";
 import graphql from "../Images/StackSvg/graphql.svg";
 
 const stackList = [
@@ -31,16 +27,6 @@ const stackList = [
     id: 2,
     name: "CSS",
     img_url: css,
-  },
-  {
-    id: 3,
-    name: "Java",
-    img_url: java,
-  },
-  {
-    id: 4,
-    name: "Springboot",
-    img_url: springboot,
   },
   {
     id: 5,
@@ -88,16 +74,6 @@ const stackList = [
     img_url: reactImg,
   },
   {
-    id: 14,
-    name: "React router",
-    img_url: reactrouterImg,
-  },
-  {
-    id: 15,
-    name: "Material UI",
-    img_url: mui,
-  },
-  {
     id: 16,
     name: "GraphQL",
     img_url: graphql,
@@ -116,16 +92,6 @@ const stackList = [
     id: 19,
     name: "CSS",
     img_url: css,
-  },
-  {
-    id: 20,
-    name: "Java",
-    img_url: java,
-  },
-  {
-    id: 21,
-    name: "Springboot",
-    img_url: springboot,
   },
   {
     id: 22,
@@ -171,16 +137,6 @@ const stackList = [
     id: 30,
     name: "ReactJS",
     img_url: reactImg,
-  },
-  {
-    id: 31,
-    name: "React router",
-    img_url: reactrouterImg,
-  },
-  {
-    id: 32,
-    name: "Material UI",
-    img_url: mui,
   },
   {
     id: 33,
